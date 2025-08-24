@@ -13,7 +13,6 @@ Description:
 # ---------------------------------------------------------
 # 1. Find the sum of even numbers up to 50
 # ---------------------------------------------------------
-
 # Using for loop with step size 2
 sum_even = 0
 for i in range(2, 50, 2):
@@ -33,7 +32,6 @@ print()
 # ---------------------------------------------------------
 # 2. First 20 numbers and their squares
 # ---------------------------------------------------------
-
 # Using simple for loop
 for i in range(1, 21):
     print(f"Number: {i}, Square: {i**2}")
@@ -48,7 +46,6 @@ print()
 # ---------------------------------------------------------
 # 3. Sum of first 10 odd numbers
 # ---------------------------------------------------------
-
 # Using while loop
 sum_odd = 0
 count = 0
@@ -82,7 +79,6 @@ print()
 # ---------------------------------------------------------
 # 4. Check numbers divisible by 8 and 12 up to 100
 # ---------------------------------------------------------
-
 # Using simple for loop
 for i in range(1, 101):
     if i % 8 == 0 and i % 12 == 0:
@@ -113,7 +109,6 @@ print()
 # ---------------------------------------------------------
 # 5. Simple Billing System (Supermarket)
 # ---------------------------------------------------------
-
 def billing_system():
     """Function to simulate a simple supermarket billing system."""
     total_amount = 0  # Initialize total bill to zero
