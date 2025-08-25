@@ -77,9 +77,12 @@ print()
 sum_odd_filter = sum(filter(lambda x: x % 2 != 0, range(1, 20)))
 print("The sum of first 10 odd numbers (filter):", sum_odd_filter)
 print()
+
+
 # ---------------------------------------------------------
 # 4. Check numbers divisible by 8 and 12 up to 100
 # ---------------------------------------------------------
+
 # Using simple for loop
 for i in range(1, 101):
     if i % 8 == 0 and i % 12 == 0:
@@ -106,9 +109,11 @@ while i <= 100:
 print("Divisible numbers (while loop):", divisible_numbers_while)
 print()
 
+
 # ---------------------------------------------------------
 # 5. Simple Billing System (Supermarket)
 # ---------------------------------------------------------
+
 def billing_system():
     """Function to simulate a simple supermarket billing system."""
     total_amount = 0  # Initialize total bill to zero
