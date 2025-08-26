@@ -85,14 +85,17 @@ for i in range(1, 101):
     if i % 8 == 0 and i % 12 == 0:
         print(f"Number {i} is divisible by 8 and 12")
 print()
+
 # Using list comprehension
 divisible_numbers = [i for i in range(1, 101) if i % 8 == 0 and i % 12 == 0]
 print("Divisible numbers (list comprehension):", divisible_numbers)
 print()
+
 # Using filter
 divisible_numbers_filter = list(filter(lambda x: x % 8 == 0 and x % 12 == 0, range(1, 101)))
 print("Divisible numbers (filter):", divisible_numbers_filter)
 print()
+
 # Using while loop
 i = 1
 divisible_numbers_while = []
